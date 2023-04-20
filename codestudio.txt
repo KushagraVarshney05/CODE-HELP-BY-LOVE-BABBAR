@@ -1,4 +1,6 @@
-codestudio
-# check if the number is palindrome
-leetcode
-# valid palindrome
+********codestudio*********
+check if the number is palindrome
+********leetcode***********
+valid palindrome
+reverse words in a string
+maximum frequency of character
