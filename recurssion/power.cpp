@@ -1,17 +1,27 @@
 #include<iostream>
 using namespace std;
-int power(int n)
+int power(int a,int b)
 {
-    if(n==0)
+    if(b==0)
+    return 1;
+    if(b==1)
+    return a;
+    int ans=power(a,b/2);
+    if(a&1)
     {
-        return 1;
+        return a*ans*ans;
     }
-    return 2*power(n-1);
+    else{
+        return ans*ans;
+    }
+
 }
 int main()
 {
-    int n;
-    cin>>n;
+    cout<<"enter the value of base and exponenet";
+    int a,b;
+    cin>>a>>b;
+    int ans=power(a,b);
+    cout<<ans;
 
-    cout<<"the power of 2 raise to "<<n<<" is "<<power(n);
 }
