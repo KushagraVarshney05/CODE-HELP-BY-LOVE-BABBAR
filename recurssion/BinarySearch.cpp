@@ -11,7 +11,7 @@ bool search(int arr[],int start,int end,int key)
     start=mid+1;
     else
     end=mid-1;
-    cout<<arr[mid];
+    // cout<<arr[mid];
     return search(arr,start,end,key);
     
     

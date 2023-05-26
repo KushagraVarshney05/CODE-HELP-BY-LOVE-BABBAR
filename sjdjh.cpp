@@ -3,7 +3,6 @@
 using namespace std;
 int main()
 {
-    bool flag=true;
     vector<int> arr{-13,-11,1,2,5,9};
     for(int i=0;i<arr.size();i++)
     {
@@ -12,7 +11,5 @@ int main()
             cout<<arr[i]<<endl;
         }
     }
-    flag=!flag;
-    cout<<flag;
 
 }
