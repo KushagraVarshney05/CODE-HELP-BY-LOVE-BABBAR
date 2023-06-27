@@ -18,10 +18,9 @@ void print_subsequence(int ind,vector<int> &arr2)
         printarray(arr2.size(),arr2);
         return;
     }
-    arr2.push_back(arr[ind]);
+    
     print_subsequence(ind+1,arr2);
-    arr2.pop_back();
-    // printarray(n,arr2);
+    arr2.push_back(arr[ind]);
     print_subsequence(ind+1,arr2);
 
 

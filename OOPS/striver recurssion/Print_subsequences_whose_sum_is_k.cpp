@@ -26,6 +26,7 @@ void subsequences(int ind,vector<int>arr,vector<int> arr2)
         if(sum==8)
         {
             PrintArray(arr2);
+            
         }
         return;
     }
